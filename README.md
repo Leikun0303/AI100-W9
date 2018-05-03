@@ -26,7 +26,7 @@
 		
 
 	本作业产生tf.record的代码见:
-	[https://github.com/Leikun0303/AI100-W9/blob/master/research/create_image_tf_record.py](https://github.com/Leikun0303/AI100-W9/blob/master/research/create_image_tf_record.py)
+	[https://github.com/Leikun0303/AI100-W9/blob/master/research/create_image_tf_record.py](./research/create_image_tf_record.py)
 
 	本作业产生trainval.txt的代码见:
 	https://github.com/Leikun0303/AI100-W9/blob/master/research/Create_image_index_txt.py	
@@ -104,7 +104,7 @@
 ## 7. tinymind建模型https://www.tinymind.com/nukiel/w9-obj-dec2
 
 	载入点为research/run.py
-	https://github.com/Leikun0303/AI100-W9/raw/master/pic/code.png
+	![111](https://github.com/Leikun0303/AI100-W9/raw/master/pic/code.png)
 
 	https://github.com/Leikun0303/AI100-W9/blob/master/research/run.py
 
