@@ -26,10 +26,10 @@
 		
 
 	本作业产生tf.record的代码见:
-	[https://github.com/Leikun0303/AI100-W9/blob/master/research/create_image_tf_record.py](./research/create_image_tf_record.py)
+[https://github.com/Leikun0303/AI100-W9/blob/master/research/create_image_tf_record.py](./research/create_image_tf_record.py)
 
 	本作业产生trainval.txt的代码见:
-	https://github.com/Leikun0303/AI100-W9/blob/master/research/Create_image_index_txt.py	
+https://github.com/Leikun0303/AI100-W9/blob/master/research/Create_image_index_txt.py	
 	
 ## 2. 修改pipline.config
 
@@ -51,7 +51,7 @@
 	5. shuffle如果用的CPU要改为true.
 
 	本作业产生trainval.txt的代码见:
-	https://github.com/Leikun0303/AI100-W9/blob/master/input/pipline.config
+https://github.com/Leikun0303/AI100-W9/blob/master/input/pipline.config
 
 ## 3. 找到能在tinymind上能正确运行的tensorflow的object_detection和slim文件夹
 
@@ -90,7 +90,7 @@
     test.jpg 验证图片，取任意一张训练集图片即可
     pipline.config 配置文件
 	
-	https://github.com/Leikun0303/AI100-W9/blob/master/pic/data.png
+![1](https://github.com/Leikun0303/AI100-W9/raw/master/pic/data.png)
 
 	这些文件我也上传到github了.
 
@@ -104,16 +104,16 @@
 ## 7. tinymind建模型https://www.tinymind.com/nukiel/w9-obj-dec2
 
 	载入点为research/run.py
-	![111](https://github.com/Leikun0303/AI100-W9/raw/master/pic/code.png)
+![111](https://github.com/Leikun0303/AI100-W9/raw/master/pic/code.png)
 
-	https://github.com/Leikun0303/AI100-W9/blob/master/research/run.py
+https://github.com/Leikun0303/AI100-W9/blob/master/research/run.py
 
 ## 8.预测结果
 	test.jpg是随机产生的碰巧是一张比较模糊的照片,正式运行前还想重新挑一张清楚点的,为了测试性能,最终没有修改.
 
 	发现模型预测还不错,反正我看着迷糊的图,模型是预测出来了.
 	
-	https://github.com/Leikun0303/AI100-W9/blob/master/pic/output.png
+![222](https://github.com/Leikun0303/AI100-W9/raw/master/pic/output.png)
 	
 ## 9.心得体会
 
@@ -124,8 +124,9 @@
 	但是,其实这个里面涉及到的预测理论还是有点难的,SSD和mobilenet的论文说实话,现在还没看透.
 
 	CSDN上也有不少人解读论文,比如
-	对mobilenet的解读https://blog.csdn.net/jesse_mx/article/details/70766871
-	对SSD的解读https://blog.csdn.net/u010167269/article/details/52563573
+[对mobilenet的解读](https://blog.csdn.net/jesse_mx/article/details/70766871)
+
+[对SSD的解读](https://blog.csdn.net/u010167269/article/details/52563573)
 
 	对于作业,或者工程,目前主要的AI问题,github和csdn上都能找到类似的解决思路,直接复制代码下来运行是万万不可,坑多,
 
